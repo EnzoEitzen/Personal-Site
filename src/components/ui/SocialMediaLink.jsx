@@ -6,7 +6,7 @@ import {
     AvatarImage,
 } from "@/components/ui/avatar"
 import {Separator} from "@/components/ui/separator"
-import {Button, buttonVariants} from "@/components/ui/button";
+import {Button} from "@/components/ui/button";
 import {HoverCard, HoverCardContent, HoverCardTrigger} from "@/components/ui/hover-card";
 import Link from 'next/link';
 
