@@ -1,0 +1,92 @@
+[
+  {
+    "artist": "DMX",
+    "title": "It's Dark And Hell Is Hot",
+    "description": "The debut studio album by American rapper DMX, released on May 19, 1998. It features a gritty, aggressive style and includes hits like 'Ruff Ryders' Anthem' and 'Get at Me Dog'.",
+    "source": "/albums/It's Dark And Hell Is Hot.jpg"
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "title": "Good Kid, m.A.A.d City",
+    "description": "Released on October 22, 2012, this concept album tells the story of Lamar's teenage experiences in Compton. It includes popular tracks like 'Swimming Pools (Drank)' and 'Bitch, Don't Kill My Vibe'.",
+    "source": "/albums/gkmc.jpg"
+  },
+  {
+    "artist": "J. Cole",
+    "title": "2014 Forest Hills Drive",
+    "description": "J. Cole's third studio album, released on December 9, 2014. It is a deeply personal album that reflects on his upbringing and rise to fame, featuring tracks like 'No Role Modelz' and 'Apparently'.",
+    "source": "/albums/foresthill.jpg"
+  },
+  {
+    "artist": "50 Cent",
+    "title": "Get Rich or Die Tryin'",
+    "description": "The debut studio album by 50 Cent, released on February 6, 2003. It includes hit singles like 'In da Club' and '21 Questions', and is known for its raw depiction of street life.",
+    "source": "/albums/Get Rich Or Die Tryin'.jpg"
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "title": "By the Way (Deluxe)",
+    "description": "Released on July 9, 2002, this album marks a departure from the band's earlier funk-metal style, featuring more melodic and reflective tracks like 'By the Way' and 'The Zephyr Song'.",
+    "source": "/albums/Red Hot Chili Peppers - By the Way - CD - Walmart_com.jpg"
+  },
+  {
+    "artist": "Baby Keem",
+    "title": "DIE FOR MY BITCH",
+    "description": "Released on July 19, 2019, this mixtape by Baby Keem includes the breakout hit 'Orange Soda' and showcases his unique style and production skills.",
+    "source": "/albums/DIE FOR MY BITCH by Baby Keem.jpg"
+  },
+  {
+    "artist": "Wu-Tang Clan",
+    "title": "Wu-Tang Forever",
+    "description": "The second studio album by Wu-Tang Clan, released on June 3, 1997. This double album features a mix of solo and group tracks, solidifying their place in hip-hop history.",
+    "source": "/albums/wutang.jpg"
+  },
+  {
+    "artist": "pumapjl",
+    "title": "Naturalidade",
+    "description": "An EP released on December 5, 2020, featuring a blend of boom bap and jazz rap. It includes collaborations with artists like LEALL and Novin.",
+    "source": "/albums/Naturalidade.jpg"
+  },
+  {
+    "artist": "MF DOOM",
+    "title": "MM...FOOD",
+    "description": "Released on November 16, 2004, this album by MF DOOM is known for its food-related metaphors and samples, featuring tracks like 'Beef Rap' and 'Hoe Cakes'.",
+    "source": "/albums/The man who coined the word _funshine_ – please welcome Jason Jägel.jpg"
+  },
+  {
+    "artist": "Show Me The Body",
+    "title": "Body War",
+    "description": "The debut album by Show Me The Body, released on July 8, 2016. It blends punk, hardcore, and noise rock, with tracks like 'Body War' and 'Death Sounds 2'.",
+    "source": "/albums/bodywar.jpg"
+  },
+  {
+    "artist": "Pixies",
+    "title": "Doolittle",
+    "description": "Released on April 18, 1989, this album by Pixies is a landmark in alternative rock, featuring songs like 'Debaser' and 'Here Comes Your Man'.",
+    "source": "/albums/doolittle.jpg"
+  },
+  {
+    "artist": "Nas",
+    "title": "Illmatic",
+    "description": "Nas's debut album, released on April 19, 1994. It is widely regarded as one of the greatest hip-hop albums of all time, featuring tracks like 'N.Y. State of Mind' and 'The World Is Yours'.",
+    "source": "/albums/Nas - Illmatic.jpg"
+  },
+  {
+    "artist": "Tyler, The Creator",
+    "title": "Goblin",
+    "description": "Released on May 10, 2011, this debut studio album by Tyler, The Creator is known for its dark themes and controversial lyrics, featuring tracks like 'Yonkers' and 'She'.",
+    "source": "/albums/Goblin.jpg"
+  },
+  {
+    "artist": "Kanye West",
+    "title": "Donda",
+    "description": "Released on August 29, 2021, this album by Kanye West is named after his late mother and features a wide range of guest artists and styles.",
+    "source": "/albums/Donda.jpg"
+  },
+  {
+    "artist": "Kanye West",
+    "title": "Ye",
+    "description": "Released on June 1, 2018, this album by Kanye West explores themes of mental health and personal struggles, featuring tracks like 'Yikes' and 'Ghost Town'.",
+    "source": "/albums/Ye.jpg"
+  }
+]
