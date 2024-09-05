@@ -7,10 +7,8 @@ import {
 } from "@/components/ui/avatar"
 import {Separator} from "@/components/ui/separator"
 import {Button} from "@/components/ui/button";
-import {HoverCard, HoverCardContent, HoverCardTrigger} from "@/components/ui/hover-card";
 import Link from 'next/link';
 import {Popover, PopoverContent, PopoverTrigger} from "@/components/ui/popover";
-import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card";
 import React from "react";
 
 
@@ -25,7 +23,7 @@ export function SocialMediaLink() {
                     <div>
                         <div className={"flex gap-3.5"}>
                             <Avatar>
-                                <AvatarImage src="images/lain.jpg" alt="Lain Profile Picture"/>
+                                <AvatarImage src="carousel/lain.jpg" alt="Lain Profile Picture"/>
                                 <AvatarFallback></AvatarFallback>
                             </Avatar>
                             <div className="space-y-1">

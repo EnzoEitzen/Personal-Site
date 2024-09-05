@@ -1,37 +1,27 @@
-import {LainCarousel} from "@/components/ui/lainCarousel";
-import {SocialMediaLink} from "@/components/ui/SocialMediaLink";
+import {SocialMediaLink} from "@/components/customUI/SocialMediaLink";
 import {
-    Breadcrumb,
-    BreadcrumbItem,
     BreadcrumbLink,
-    BreadcrumbList,
     BreadcrumbPage,
-    BreadcrumbSeparator
 } from "@/components/ui/breadcrumb";
+import {NavigationBar} from "@/components/customUI/NavigationBar";
+import {LainCarousel} from "@/components/customUI/lainCarousel";
 
 const paths = [
-    "/images/676c1cf8-2657-43a6-bed0-83d3a84ec435.jpg",
-    "/images/06b1965e-fdd1-42d7-be28-98b6e58b9ad3.jpg",
-    "/images/ac219f17-786c-4a38-aebc-b1d0269fdb77.jpg",
-    "/images/anime icon.jpg",
-    "/images/e798e0d3-b3b6-4bae-b782-8f69d87ff188.jpg",
-    "/images/lain.jpg",
-    "/images/lain (1).jpg"
+    "/carousel/676c1cf8-2657-43a6-bed0-83d3a84ec435.jpg",
+    "/carousel/06b1965e-fdd1-42d7-be28-98b6e58b9ad3.jpg",
+    "/carousel/ac219f17-786c-4a38-aebc-b1d0269fdb77.jpg",
+    "/carousel/anime icon.jpg",
+    "/carousel/e798e0d3-b3b6-4bae-b782-8f69d87ff188.jpg",
+    "/carousel/lain.jpg",
+    "/carousel/lain (1).jpg"
 ];
 
 export default function Home() {
     return (<main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <Breadcrumb className="mb-5">
-            <BreadcrumbList>
-                <BreadcrumbItem>
-                    <BreadcrumbPage>Home</BreadcrumbPage>
-                </BreadcrumbItem>
-                <BreadcrumbSeparator />
-                <BreadcrumbItem>
-                    <BreadcrumbLink href={"/music"}>Music</BreadcrumbLink>
-                </BreadcrumbItem>
-            </BreadcrumbList>
-        </Breadcrumb>
+        <NavigationBar>
+            <BreadcrumbPage>Home</BreadcrumbPage>
+            <BreadcrumbLink href={"/music"}>Music</BreadcrumbLink>
+        </NavigationBar>
 
         <LainCarousel imagePaths={paths}/>
 
@@ -48,6 +38,7 @@ export default function Home() {
             <p className="font-extrabold italic text-black">Enzo </p>
             <p className="font-extrabold italic text-black"><br/>Eitzen</p>
         </div>
+
         <SocialMediaLink/>
 
     </main>);
