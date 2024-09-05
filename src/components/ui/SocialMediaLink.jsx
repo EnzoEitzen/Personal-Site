@@ -9,16 +9,19 @@ import {Separator} from "@/components/ui/separator"
 import {Button} from "@/components/ui/button";
 import {HoverCard, HoverCardContent, HoverCardTrigger} from "@/components/ui/hover-card";
 import Link from 'next/link';
+import {Popover, PopoverContent, PopoverTrigger} from "@/components/ui/popover";
+import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card";
+import React from "react";
 
 
 export function SocialMediaLink() {
     return (
         <>
-            <HoverCard>
-                <HoverCardTrigger asChild>
+            <Popover>
+                <PopoverTrigger asChild>
                     <Button variant="link">@Socials</Button>
-                </HoverCardTrigger>
-                <HoverCardContent className="w-80">
+                </PopoverTrigger>
+                <PopoverContent className="w-80">
                     <div>
                         <div className={"flex gap-3.5"}>
                             <Avatar>
@@ -49,8 +52,8 @@ export function SocialMediaLink() {
 
                         </div>
                     </div>
-                </HoverCardContent>
-            </HoverCard>
+                </PopoverContent>
+            </Popover>
         </>
 
     )
