@@ -11,7 +11,6 @@ export default function Music() {
         <NavigationBar>
             <BreadcrumbLink href="/">Home</BreadcrumbLink>
             <BreadcrumbPage>Music</BreadcrumbPage>
-            <BreadcrumbLink href={"/about"}>About</BreadcrumbLink>
         </NavigationBar>
 
 
