@@ -1,13 +1,9 @@
-import {
-    Breadcrumb,
-    BreadcrumbItem,
-    BreadcrumbList,
-    BreadcrumbSeparator
-} from "@/components/ui/breadcrumb";
 import React from "react";
+import {Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator} from "@/components/ui/breadcrumb";
+
 
 export function NavigationBar({children}) {
-    return (
+    return (<>
         <Breadcrumb className="mb-5">
             <BreadcrumbList>
                 <BreadcrumbItem>
@@ -17,7 +13,12 @@ export function NavigationBar({children}) {
                 <BreadcrumbItem>
                     {children[1]}
                 </BreadcrumbItem>
+                <BreadcrumbSeparator/>
+                <BreadcrumbItem>
+                    {children[2]}
+                </BreadcrumbItem>
             </BreadcrumbList>
         </Breadcrumb>
-    )
+    </>)
 }
+

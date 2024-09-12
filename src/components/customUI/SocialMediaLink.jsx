@@ -19,13 +19,13 @@ export function SocialMediaLink() {
                 <PopoverTrigger asChild>
                     <Button variant="link">@Socials</Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-60">
+                <PopoverContent className="w-64">
                     <div>
                         <div className={"flex gap-3.5"}>
-                            {/*<Avatar>*/}
-                            {/*    <AvatarImage src="carousel/lain.jpg" alt="Lain Profile Picture"/>*/}
-                            {/*    <AvatarFallback></AvatarFallback>*/}
-                            {/*</Avatar>*/}
+                                <Avatar>
+                                    <AvatarImage src="carousel/lain.jpg" alt="Lain Profile Picture"/>
+                                    <AvatarFallback></AvatarFallback>
+                                </Avatar>
                             <div className="space-y-1">
                                 <h4 className="text-sm font-medium leading-none">Hey!!</h4>
                                 <p className="text-sm text-muted-foreground">
