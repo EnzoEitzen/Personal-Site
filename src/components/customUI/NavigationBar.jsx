@@ -13,10 +13,6 @@ export function NavigationBar({children}) {
                 <BreadcrumbItem>
                     {children[1]}
                 </BreadcrumbItem>
-                <BreadcrumbSeparator/>
-                <BreadcrumbItem>
-                    {children[2]}
-                </BreadcrumbItem>
             </BreadcrumbList>
         </Breadcrumb>
     </>)

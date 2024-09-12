@@ -21,7 +21,6 @@ export default function Home() {
         <NavigationBar>
             <BreadcrumbPage>Home</BreadcrumbPage>
             <BreadcrumbLink href={"/music"}>Music</BreadcrumbLink>
-            <BreadcrumbLink href={"/about"}>About</BreadcrumbLink>
         </NavigationBar>
 
         {/*<LainCarousel imagePaths={paths}/>*/}
