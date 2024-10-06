@@ -81,6 +81,7 @@
 @layer base {
   * {
     @apply border-border;
+    font-family: 'MS PGothic', sans-serif;
   }
   body {
     @apply bg-background text-foreground;
